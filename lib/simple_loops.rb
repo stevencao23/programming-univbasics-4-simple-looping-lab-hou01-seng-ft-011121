@@ -34,7 +34,7 @@ loop_message_n_times ("Hello Moon.") , (5)
     count = 0 
     new_array = []
     while count < array.length do
-      array[count].to_s 
+      new_array.push(array[count].to_s) 
       count += 1 
     end
   end
