@@ -37,6 +37,7 @@ loop_message_n_times ("Hello Moon.") , (5)
       new_array.push(array[count].to_s) 
       count += 1 
     end
+    new_array
   end
     
   
