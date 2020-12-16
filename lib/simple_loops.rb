@@ -20,5 +20,7 @@ end
 loop_message_n_times ("Hello Moon.") , (5)
 
  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
- def output_array
+ def output_array (array)
+   counter = 0 
+   while 
   
