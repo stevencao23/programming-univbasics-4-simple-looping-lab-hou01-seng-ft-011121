@@ -32,6 +32,7 @@ loop_message_n_times ("Hello Moon.") , (5)
   array = [5, 4, 3, 2, 1]
   def return_string_array(array)
     count = 0 
+    new_array = []
     while count < array.length do
       array[count].to_s 
       count += 1 
